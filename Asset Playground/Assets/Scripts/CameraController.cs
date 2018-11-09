@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
     public GameObject followTarget;
-
-    private Vector3 displacement;
+    public Vector3 displacement;
 
     [SerializeField] private int closestZoom = 1;
     [SerializeField] private int farthestZoom = 10;

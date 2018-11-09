@@ -39,6 +39,10 @@ ModelImporter:
     100066: toes_L
     100068: toes_R
     100070: torso
+    100072: armPole_L
+    100074: armPole_R
+    100076: footIK_L
+    100078: footIK_R
     400000: Armature
     400002: bicep_L
     400004: bicep_R
@@ -75,11 +79,17 @@ ModelImporter:
     400066: toes_L
     400068: toes_R
     400070: torso
+    400072: armPole_L
+    400074: armPole_R
+    400076: footIK_L
+    400078: footIK_R
     2100000: GoblinMat
     4300000: Goblin
     7400000: Default Take
+    7400002: Walk_blocking
     9500000: //RootNode
     13700000: Goblin
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -93,9 +103,24 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'shin_L' : position error = 2.380463
+      mm\n\t'foot_L' : position error = 4.296642 mm\n\t'shin_R' : position error =
+      2.380520 mm\n\t'foot_R' : position error = 4.296378 mm\n\t'bicep_L' : position
+      error = 31.076229 mm\n\t'hand_L' : position error = 2.115506 mm\n\t'bicep_R'
+      : position error = 31.076216 mm\n\t'hand_R' : position error = 2.114977 mm\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Default Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'thigh_L' has scale animation that will be
+      discarded.\n\t'shin_L' has scale animation that will be discarded.\n\t'thigh_R'
+      has scale animation that will be discarded.\n\t'shin_R' has scale animation
+      that will be discarded.\n\nClip 'Walk_blocking' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'thigh_L' has scale animation that will be
+      discarded.\n\t'shin_L' has scale animation that will be discarded.\n\t'thigh_R'
+      has scale animation that will be discarded.\n\t'shin_R' has scale animation
+      that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
